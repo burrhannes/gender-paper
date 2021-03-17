@@ -188,6 +188,6 @@ post = rowMeans(stereotype_post)
 t.test(pre,post,
        mu=0, paired=TRUE,conf.level = 0.95)
 
-# significant => stereotypes were broken
+# significant difference => stereotypes were broken
 
 
